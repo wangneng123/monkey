@@ -1,0 +1,706 @@
+*{
+	margin: 0;
+	height: 0;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear:after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.outer{
+	width: 100%;
+	height: 1662px;
+	background: url(../image/bg1.jpg) repeat-x;
+}
+.outer2{
+	width: 962px;
+	height: 1662px;
+	background: url(../image/bg2.jpg) repeat;
+	margin: 0 auto;
+}
+.outer3{
+	width: 948px;
+	height: 1662px;
+	border: 0 1px 0 1px;
+	border-left: 1px solid #ba8951;
+	border-right: 1px solid #ba8951;
+	margin: 0 auto;
+}
+.top{
+	height: 224px;
+	background: url(../image/bg4.png) repeat-x;
+	overflow: hidden;
+	position: relative;
+}
+.monkey{
+	width: 557px;
+	height: 224px;
+	background: url(../image/monkey.png) no-repeat;
+	margin-top: 4px;
+	margin-left: 14px;
+}
+.nav{
+	width: 308px;
+	margin-top: 4px;
+}
+.nav i{
+	display: inline-block;
+	width: 14px;
+	height: 28px;
+	background: url(../image/1_03.png) no-repeat;
+	vertical-align: middle;
+
+}
+.nav div{
+	width: 270px;
+	height: 28px;
+	background-color: #ff9935;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 28px;
+	text-align: right;
+	padding-right: 16px;
+}
+.nav a,.nav span{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+.xxx{
+	width: 460px;
+	height: 100px;
+	opacity: 0.5;
+	background-color: white;
+	border-radius: 10px;
+	position: absolute;
+	left: 340px;
+	top: 56px;
+}
+.xx{
+	width: 460px;
+	height: 100px;
+	position: absolute;;
+	left: 340px;
+	top: 56px;
+}
+.p1{
+	color: #7f4754;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 64px;
+	height: 64px;
+	margin-left: 8px;
+}
+.p2{
+	color: #7f4754;
+	font-size: 14px;
+	line-height:38px;
+	height: 38px;
+	margin-left: 16px;
+}
+.middle{
+	height: 1352px;
+	background: url(../image/bg5.jpg) no-repeat;
+	overflow: hidden;
+}
+.middle_left1{
+	margin-top: 10px;
+	margin-left: 8px;
+	width: 228px;
+	height: 1324px;
+}
+/*音乐达人*/
+.mtalent{
+	height: 350px;
+	background-color: yellow;
+}
+.mtalent_top{
+	height: 44px;
+}
+.bg7{
+	height: 44px;
+	background: url(../image/bg7.jpg) repeat-x;
+}
+.bg6{
+	height: 44px;
+	background: url(../image/bg6.jpg) no-repeat;
+}
+.bg8{
+	height: 44px;
+	background: url(../image/bg8.jpg) top right no-repeat;
+}
+.bg8 p{
+	height: 44px;
+	line-height: 44px;
+	font-size: 16px;
+	color: #a71f09;
+	font-weight: bold;
+	text-indent: 40px;
+}
+.mtalent_center{
+	width: 226px;
+	height: 278px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.mtalent_bottom{
+	height: 26px;
+}
+.bg10{
+	height: 26px;
+	background: url(../image/bg10.jpg) repeat-x;
+}
+.bg9{
+	height: 26px;
+	background: url(../image/bg9.jpg) no-repeat;
+}
+.bg11{
+	height: 26px;
+	background: url(../image/bg11.jpg) top right no-repeat;
+}
+.meinv1{
+	width:226px;
+	height: 209px;
+	text-align: center;
+}
+.meinv1 img{
+	height: 200px;
+	margin-top: 9px;
+}
+.buttons{
+	width: 203px;
+	height: 54px;
+	margin:0 auto;
+	margin-top: 8px;
+}
+.buttons input{
+	height: 24px;
+	width: 66px;
+	margin-right: -5px;
+	margin-bottom: 4px;
+	border: none;
+	outline: none;
+	text-align: center;
+	background: url(../image/btn1.png);
+	cursor: pointer;
+}
+.buttons input:hover{
+	background: url(../image/btn2.png);
+}
+.buttons .btn1{
+	background: url(../image/btn2.png);
+}
+/*音乐盒子*/
+.mbox{
+	margin-top: 13px;
+	height: 328px;
+	background-color: yellow;
+}
+.mbox_top{
+	height: 44px;
+	position: relative;
+}
+.more{
+	font-size: 14px;
+	font-family: Microsoft Yahei;
+	color: #a71f09;
+	position: absolute;
+	right: 14px;
+	top: 12px;
+}
+.more2{
+	font-size: 14px;
+	font-family: Microsoft Yahei;
+	color: #a71f09;
+	position: absolute;
+	right: 14px;
+	top: 12px;
+	text-decoration: none;
+}
+.mbox_center{
+	width: 226px;
+	height: 256px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.buttons2{
+	height: 23px;
+	width: 180px;
+	margin-left: 8px;
+}
+.buttons2 input{
+	width: 55px;
+	height: 23px;
+	border: none;
+	margin-right: -3px;
+	background: url(../image/btn4.jpg) no-repeat;
+	outline: none;
+	cursor: pointer;
+}
+.buttons2 input:hover{
+	background: url(../image/btn3.jpg);
+}
+.song{
+	margin-top: 18px;
+	width: 204px;
+	height: 190px;
+}
+.song li{
+	height: 22px;
+	border-bottom: 1px dashed black;
+	list-style: none;
+	margin-left: -20px;
+	font-size: 14px;
+	line-height: 22px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.bg12{
+	width: 15px;
+	height: 10px;
+	background: url(../image/bg12.png);
+	float: right;
+	margin-top: 8px;
+}
+.listenall{
+	font-size: 14px;
+	color: #a71f09; 
+	margin-left: 158px;
+	font-weight: bold;
+}
+/*经纪公司*/
+.mfirm{
+	margin-top: 13px;
+	height: 338px;
+	background-color: yellow;
+}
+.mfirm_top{
+	height: 44px;
+	position: relative;
+}
+.mfirm_center{
+	height: 266px;
+	width: 226px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.buttons3{
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.buttons3 input{
+	width: 55px;
+	height: 24px;
+	border: none;
+	outline: none;
+	background: url(../image/btn5.jpg) no-repeat;
+	vertical-align: middle;
+}
+.buttons3 .btn1{
+	background: url(../image/btn6.jpg) no-repeat;
+}
+.buttons3 input:hover{
+	background: url(../image/btn6.jpg) no-repeat;
+}
+.buttons3 .aunt{
+	margin:0 10px;
+	vertical-align: middle;
+}
+/*日历*/
+.calendar{
+	margin-top: 16px;
+	height: 266px;
+	background-color: yellow;
+}
+.calendar_top{
+	height: 44px;
+	position: relative;
+}
+.calendar_center{
+	width: 226px;
+	height: 194px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.bg13{
+	width: 208px;
+	height: 184px;
+	background: url(../image/bg13.jpg) no-repeat;
+	margin:0 auto;
+	font-size: 14px;
+}
+.bg13 p{
+	text-align: center;
+	height: 20px;
+	color: #a52a23 ;
+	font-weight:bold;
+}
+.bg13 .ul1,.bg13 .ul2{
+	width: 200px;
+	height: 20px;
+	list-style: none;
+	margin-left: -15px;
+	margin-bottom: 3px;
+}
+.ul1{
+	color: #a52a23 ;
+	font-weight:bold;
+}
+.bg13 li{
+	height: 20px;
+	width: 16px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+.bg13 li:hover{
+	background-color: #a52a23;
+	color: white;
+}
+.li13{
+	background-color: #a52a23;
+	color: white;
+}
+.DEC{
+	text-decoration: none;
+	color:#a71f09;
+	font-weight: bold;
+	margin-left: 40px;
+}
+.FVB{
+	text-decoration: none;
+	margin-left: 56px;
+}
+.middle_left2{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 452px;
+	height: 1156px;
+}
+/*视频*/
+.video{
+	width: 452px;
+	height: 286px;
+	background-color: yellow;
+}
+.video_top{
+	height: 44px;
+	position: relative;
+}
+.video_center{
+	width: 450px;
+	height: 214px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.video1{
+	width: 142px;
+	height: 196px;
+	margin-top: 8px;
+	margin-left: 6px;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+.video1:hover{
+	background-color: #ff9935;
+}
+.video1 p{
+	height: 30px;
+}
+.bg14{
+	width: 126px;
+	height: 126px;
+	margin-top: 8px;
+}
+.btn8{
+	width: 64px;
+	height: 22px;
+	background: url(../image/btn8.jpg) no-repeat;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.btn8:hover{
+	background: url(../image/btn7.jpg) no-repeat;
+}
+/*歌词*/
+.lyric{
+	width: 452px;
+	height: 258px;
+	margin-top: 12px;
+	background-color: yellow;
+}
+.lyric_top{
+	height: 44px;
+	position: relative;
+}
+.lyric_center{
+	width: 450px;
+	height: 188px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.lyric1{
+	width: 224px;
+	height: 184px;
+	border-right: 1px solid #f0bb85;
+	overflow: hidden;
+	position: relative;
+	font-size: 13px;
+}
+.lyric1 p{
+	/*background-color: green;*/
+	width: 144px;
+	height: 160px;
+	
+	line-height: 20px;
+	margin-top: 12px;
+	margin-left: 26px;
+}
+.lyric1 a{
+	color: #a71f09;
+	position: absolute;
+	right: 18px;
+	top: 160px;
+	margin-left: 26px;
+}
+/*相册*/
+.photo{
+	width: 452px;
+	height: 286px;
+	margin-top: 14px;
+	background-color: yellow;
+}
+.photo_top{
+	height: 44px;
+	position: relative;
+}
+.photo_center{
+	width: 450px;
+	height: 214px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+/*日记*/
+.diary{
+	width: 452px;
+	height: 286px;
+	margin-top: 14px;
+	background-color: yellow;
+}
+.diary_top{
+	height: 44px;
+	position: relative;
+}
+.diary_center{
+	width: 450px;
+	height: 214px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.diary1{
+	width: 450px;
+	height:220px;
+	font-size: 13px;
+}
+.diary1 table{
+	width: 430px;
+	margin-left: 10px;
+}
+.diary1 tr{
+	border-bottom: 1px dotted black;
+}
+.diary1 .tr1{
+	background-color: #ffc48a;
+	color: #a71f09;
+	font-weight: bold;
+}
+.diary1 td{
+	width: 140px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	border-bottom: 1px dotted black;
+}
+.diary1 .td1{
+	width: 240px;
+}
+.middle_left3{
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 228px;
+	height: 1280px;
+}
+/*访问记录*/
+.visit{
+	width: 228px;
+	height: 212px;
+	background-color: yellow;
+}
+.visit_top{
+	height: 44px;
+}
+.visit_center{
+	width: 226px;
+	height: 140px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.visit1 ul{
+	width: 190px;
+	height: 140px;
+	overflow: hidden;
+	font-weight: bold;
+}
+.visit1 li{
+	width: 190px;
+	height: 24px;
+	list-style: none;
+	line-height: 24px;
+	margin-left: -20px;
+	margin-top: 3px;
+	color: #a71f09;
+	border-bottom: 1px dashed black;
+	cursor: pointer;
+	font-size: 14px;
+
+}
+.visit1 span{
+	margin-left:30px;
+	color: black;
+}
+.bg17{
+	width: 11px;
+	height: 11px;
+	background: url(../image/bg17.png) no-repeat;
+	display: inline-block;
+	margin-right: 12px;
+}
+/*留言*/
+.words{
+	width: 228px;
+	height: 280px;
+	background-color: yellow;
+	margin-top: 13px;
+}
+.words_top{
+	height: 44px;
+	position: relative;
+}
+.words_center{
+	width: 226px;
+	height: 208px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.words_bottom{
+	height: 26px;
+}
+.words1 ul{
+	list-style: url(../image/bg17.png);
+}
+.words1 li{
+	width: 170px;
+	height: 30px;
+	padding: 10px;
+	margin-left: -10px;
+	font-size: 13px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.words1 li:hover{
+	text-decoration: underline;
+}
+.words1 li b{
+	color: #a71f09;
+}
+/*好友*/
+.friends{
+	width: 228px;
+	height: 418px;
+	background-color: yellow;
+	margin-top: 13px;
+}
+.friends_top{
+	height: 44px;
+	position: relative;
+}
+.friends_center{
+	width: 226px;
+	height: 346px;
+	border:1px solid #fee3b8;
+	background-color: #ffd3a4;
+}
+.friends_bottom{
+	height: 26px;
+}
+.friends1{
+	width: 224px;
+	height: 86px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-bottom: 1px solid #e4a152;
+}
+.friends1 dl{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.friends1 dt img{
+	width: 66px;
+	height: 66px;
+	
+}
+.friends1 dd{
+	margin-top: 10px;
+	margin-left: 80px;
+}
+.pp1{
+	font-size: 16px;
+	color: #a82a00;
+	font-weight: bold;
+	height: 30px;	
+}
+.pp2{
+	font-size: 14px;
+	height: 30px;
+}
+.friends1:hover{
+	background-color: #ff9935;
+	cursor: pointer;
+}
+/*偶像*/
+.idol{
+	width: 228px;
+	height: 328px;
+	background-color: yellow;
+	margin-top: 14px;
+}
+.foot{
+	height: 86px;
+	background:url(../image/bg18.jpg) repeat-x;
+}
+.foot div{
+	height: 86px;
+	line-height: 86px;
+	text-align: center; 
+	font-size: 16px;
+	color:#a71522;
+	font-weight: bold;
+}
+.foot a{
+	color:#a71522;
+	text-decoration: none;
+}
+.foot a:hover{
+	text-decoration: underline;
+}
